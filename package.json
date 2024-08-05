@@ -1,0 +1,39 @@
+{
+  "name": "vue3_three",
+  "version": "1.0.0",
+  "description": "learn three.js with vue3",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WangFeijiu/vue3_three.git"
+  },
+  "keywords": [
+    "three.js",
+    "study"
+  ],
+  "author": "wangfeijiu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WangFeijiu/vue3_three/issues"
+  },
+  "homepage": "https://github.com/WangFeijiu/vue3_three#readme",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "ant-design-vue": "^4.2.3",
+    "stats.js": "^0.17.0",
+    "vite-plugin-inspect": "^0.8.4",
+    "vue": "^3.4.29"
+  },
+  "devDependencies": {
+    "@types/three": "^0.165.0",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "three": "^0.165.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.1",
+    "vue-tsc": "^2.0.21"
+  }
+}
